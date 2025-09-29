@@ -28,5 +28,7 @@ function processaTexto(texto){
         return frequencias[p2] - frequencias[p1];
     }
 
-    
+    return ordenadas.slice(0, 10);
 }
+
+function contaFrequencia(palavras)
